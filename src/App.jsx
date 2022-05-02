@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import CreatePost from './Components/CreatePost/CreatePost'
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
 
@@ -14,10 +15,11 @@ function App() {
 
   return (
     <div>
-      <header>
-        <h1>NavBar PlaceHolder</h1>
-      </header>
       <body>
+        <header className='header'>
+          <h1>SocialFeed</h1>
+          {/* <NavBar/> */}
+          </header>
         <div className='NewPost'>
           <CreatePost createNewPost={addNewPost}/>
         </div>
