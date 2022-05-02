@@ -1,0 +1,1 @@
+//The display of multiple posts(multiple containers)
