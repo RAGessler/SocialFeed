@@ -14,15 +14,15 @@ function App() {
   }
 
   return (
-    <div>
-        <header className='header' id='home'>
+    <div className='app' id='home'>
+        <div className='nav-1'>
           <NavBar/>
-          </header>
-        <div className='NewPost' id='post'>
+        </div>
+        <div className='new-post' id='post'>
           <CreatePost createNewPost={addNewPost}/>
         </div>
         <div className='feed' id='feed'>
-        <DisplayPosts parentPosts={posts} />
+          <DisplayPosts parentPosts={posts} />
         </div>
     </div>
   );

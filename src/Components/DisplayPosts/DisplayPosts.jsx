@@ -6,11 +6,11 @@ import "./DisplayPosts.css"
 
 const DisplayPosts = (props) => {
     return (
-        <div className="post grid">
-            <h3>Post Container</h3>
+        <div className="">
             {props.parentPosts.map((element, index) => {
                 return(
-                    <div className='card' key={index}>
+                    <div className='card mw-100' style={{margin:'1em',
+                    padding:'1em'}} key={index}>
                         <h4 className='card-title'>{element.name}</h4>
                         <p className='card-text'>{element.body}</p>
                         <footer className="Buttons">

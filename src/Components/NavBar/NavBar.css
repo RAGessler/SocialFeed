@@ -1,5 +1,6 @@
-.navbar navbar-expand-lg navbar-light bg-light {
-    position: fixed;
-    width: 100%;
-    top: 0;
+.hero-text{
+    margin: auto;
+    font-size: xx-large;
+    color: lightblue;
+    text-decoration: none;
 }
