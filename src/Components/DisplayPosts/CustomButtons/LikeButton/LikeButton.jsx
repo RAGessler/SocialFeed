@@ -7,7 +7,7 @@ const LikeButton = (props) => {
 
     function handleClick(){
         if(buttonClass === 'inactive'){
-            setButtonClass('active')
+            setButtonClass('like')
         }
         else {
             setButtonClass('inactive');

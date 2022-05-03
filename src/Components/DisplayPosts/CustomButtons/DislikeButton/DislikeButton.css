@@ -1,0 +1,12 @@
+button{
+    color: white;
+    padding:5px 5px;
+}
+
+.dislike{
+    background-color: darkred;
+}
+
+.inactive{
+    background-color: gray;
+}

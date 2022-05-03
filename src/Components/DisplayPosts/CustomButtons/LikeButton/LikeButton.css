@@ -1,9 +1,9 @@
 button{
     color: white;
-    padding:5px 5pxl;
+    padding:5px 5px;
 }
 
-.active{
+.like{
     background-color: green;
 }
 
