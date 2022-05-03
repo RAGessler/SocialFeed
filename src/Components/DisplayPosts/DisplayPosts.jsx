@@ -9,8 +9,7 @@ const DisplayPosts = (props) => {
         <div className="">
             {props.parentPosts.map((element, index) => {
                 return(
-                    <div className='card mw-100' style={{margin:'1em',
-                    padding:'1em'}} key={index}>
+                    <div className='card mw-100' style={{margin:'1em', padding:'1em', boxShadow: '5px 5px black'}} key={index}>
                         <h4 className='card-title'>{element.name}</h4>
                         <p className='card-text'>{element.body}</p>
                         <footer className="Buttons">
