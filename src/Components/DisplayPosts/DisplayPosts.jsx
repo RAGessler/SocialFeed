@@ -1,5 +1,6 @@
 //The layout and display of a single post
 import React from 'react';
+import LikeButton from './CustomButtons/LikeButton';
 
 const DisplayPosts = (props) => {
     return (
@@ -11,7 +12,7 @@ const DisplayPosts = (props) => {
                         <header>{element.name}</header>
                         <div>{element.body}</div>
                         <footer className="Buttons">
-                            <button>Like</button>
+                            <LikeButton/>
                             <button>Dislike</button>
                         </footer>
                     </div>
