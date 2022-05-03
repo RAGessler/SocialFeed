@@ -5,11 +5,11 @@ const DisplayPosts = (props) => {
     return (
         <div className="Post Container">
             <h3>Post Container</h3>
-            {props.parentPosts.map((element) => {
+            {props.parentPosts.map((element, index) => {
                 return(
-                    <div className='post'>
+                    <div className='post' key={index}>
                         <header>{element.name}</header>
-                        <body>{element.body}</body>
+                        <div>{element.body}</div>
                         <footer className="Buttons">
                             <button>Like</button>
                             <button>Dislike</button>

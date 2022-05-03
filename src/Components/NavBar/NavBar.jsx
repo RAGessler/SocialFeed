@@ -1,12 +1,13 @@
 import React from "react";
-import {HashLink as Link} from 'react-router-hash-link';
 
 const NavBar= (props) => {
     return(
-        <nav className="nav-bar">
+        <nav>
+            <h1>SocialFeed</h1>
             <ul>
-                <li><a className='nav-a' href="">Post</a></li>
-                <Link><a className='nav-a' href="/pathLink#feed">Feed</a></Link>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#post">Post</a></li>
+                <li><a href="#feed">Feed</a></li>
             </ul>
         </nav>
     )

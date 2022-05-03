@@ -15,18 +15,15 @@ function App() {
 
   return (
     <div>
-      <body>
-        <header className='header'>
-          <h1>SocialFeed</h1>
-          {/* <NavBar/> */}
+        <header className='header' id='home'>
+          <NavBar/>
           </header>
-        <div className='NewPost'>
+        <div className='NewPost' id='post'>
           <CreatePost createNewPost={addNewPost}/>
         </div>
-        <div className='feed'>
+        <div className='feed' id='feed'>
         <DisplayPosts parentPosts={posts} />
         </div>
-      </body>
     </div>
   );
 }
