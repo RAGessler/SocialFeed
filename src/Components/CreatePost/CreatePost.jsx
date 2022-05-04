@@ -31,7 +31,7 @@ const CreatePost = (props) => {
                     <div className='form-group'>
                         <label htmlFor="postBody">Body</label>
                         <textarea id='postBody' className='form-control form-control-lg' placeholder='Update your status...' aria-label='Body' type="text" value={body} onChange={(event) => setBody(event.target.value)}/>
-                        <button className='btn btn-primary' style={{margin: "0 auto", display: "block", width: "80%",}} type='submit'>Post
+                        <button className='btn btn-primary' style={{margin: "0 auto", display: "block", width: "80%"}} type='submit'>Post
                         <span className='badge bg-light' style={{color:'black', marginLeft: '1em'}} >{fullDate}</span>
                         </button>
                     </div>
