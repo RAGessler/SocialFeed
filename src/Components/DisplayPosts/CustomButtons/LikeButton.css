@@ -1,0 +1,20 @@
+button{
+    color: black;
+    padding: 4px 7px;
+    border: 1px;
+}
+
+.like{
+    background-color: lightgreen;
+    box-shadow: 2px 2px inset;
+}
+
+.dislike{
+    background-color: lightcoral;
+    box-shadow: 2px 2px inset;
+}
+
+.inactive{
+    background-color: lightblue;
+    box-shadow: 2px 2px;
+}
