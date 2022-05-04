@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar/NavBar';
 
 function App() {
 
-  const [posts, setPosts] = useState([ {name: 'Robert', body: 'Hi Mom!'}, {name: 'Elon', body: 'I just bought Twitter!'} ])
+  const [posts, setPosts] = useState([ {name: 'Robert', body: 'Hi Mom!', date: '5/04/2022'}, {name: 'Elon Musk', body: 'I just bought Twitter!', date:'4/25/2022'} ])
   
   function addNewPost(post){
     let tempPosts = [...posts, post];

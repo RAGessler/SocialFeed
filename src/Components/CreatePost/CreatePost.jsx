@@ -9,10 +9,17 @@ const CreatePost = (props) => {
         event.preventDefault();
         let newPost = {
             name: name,
-            body: body
+            body: body,
+            date: fullDate
         };
         props.createNewPost(newPost)
     }
+
+    let currentDate = new Date()
+    let day = currentDate.getDate()
+    let month = currentDate.getMonth() + 1
+    let year = currentDate.getFullYear()
+    let fullDate = `${day}/${month}/${year}`
 
     return(
         <div className='container'>
@@ -24,7 +31,9 @@ const CreatePost = (props) => {
                     <div className='form-group'>
                         <label htmlFor="postBody">Body</label>
                         <textarea id='postBody' className='form-control form-control-lg' aria-label='Body' type="text" value={body} onChange={(event) => setBody(event.target.value)}/>
-                        <button className='btn btn-primary' style={{margin: "0 auto", display: "block", width: "80%",}} type='submit'>Post</button>
+                        <button className='btn btn-primary' style={{margin: "0 auto", display: "block", width: "80%",}} type='submit'>Post
+                        <span className='badge bg-light' style={{color:'black', marginLeft: '1em'}} >{fullDate}</span>
+                        </button>
                     </div>
                 </form>
             </div>

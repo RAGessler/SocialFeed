@@ -12,6 +12,7 @@ const DisplayPosts = (props) => {
                     <div className='card mw-100' style={{margin:'1em', padding:'1em', boxShadow: '5px 5px black'}} key={index}>
                         <h4 className='card-title'>{element.name}</h4>
                         <p className='card-text'>{element.body}</p>
+                        <h5 className='card-date'>{element.date}</h5>
                         <footer className="Buttons">
                             <div className='btn-group'>
                                 <LikeButton/>
