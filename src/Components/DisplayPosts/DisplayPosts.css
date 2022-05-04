@@ -1,6 +1,7 @@
 
 .btn-group{
-    margin-left: 81%;
+    position: relative;
+    left: 79%;
 }
 
 .card-date{

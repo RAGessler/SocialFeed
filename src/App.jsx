@@ -9,7 +9,7 @@ function App() {
   const [posts, setPosts] = useState([ {name: 'Robert', body: 'Hi Mom!', date: '5/04/2022'}, {name: 'Elon Musk', body: 'I just bought Twitter!', date:'4/25/2022'} ])
   
   function addNewPost(post){
-    let tempPosts = [...posts, post];
+    let tempPosts = [post, ...posts];
     setPosts(tempPosts)
   }
 
