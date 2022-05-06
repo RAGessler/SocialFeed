@@ -7,14 +7,17 @@ button{
 .like{
     background-color: lightgreen;
     box-shadow: 2px 2px inset;
+    border-radius: 5px;
 }
 
 .dislike{
     background-color: lightcoral;
     box-shadow: 2px 2px inset;
+    border-radius: 5px;
 }
 
 .inactive{
     background-color: lightblue;
     box-shadow: 2px 2px;
+    border-radius: 5px;
 }
