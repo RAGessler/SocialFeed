@@ -17,7 +17,7 @@ button{
 }
 
 .inactive{
-    background-color: lightblue;
+    background-color: #0777b352;
     box-shadow: 2px 2px;
     border-radius: 5px;
 }
