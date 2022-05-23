@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   socialfeed:
-    container_name: socialfeed
+    container_name: social-feed
     build:
       context: .
       dockerfile: Dockerfile.dev
