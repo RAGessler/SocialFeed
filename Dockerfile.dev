@@ -14,4 +14,4 @@ EXPOSE 3000
 
 #ENV CHOKIDAR_USEPOLLING=true
 
-CMD [ "npm", "install" ]
+CMD [ "npm", "start" ]

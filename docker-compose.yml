@@ -3,7 +3,7 @@ version: '3.9'
 services:
   socialfeed:
     container_name: socialfeed
-    image: ragessler/socailfeed
+    image: ragessler/socailfeed-prod
     ports:
       - "80:80"
 
